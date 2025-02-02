@@ -28,25 +28,25 @@ export const Cultural = () => {
       <div className='scrolltotop' onClick={scrollToTop}><RiArrowUpDoubleFill /></div>
 
       <div className='list'>
-        <img className='animate-on-scroll' loading="lazy" src={img1}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img5}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img8}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img12}></img> 
+        <img loading="lazy" src={img1}></img> 
+        <img loading="lazy" src={img5}></img> 
+        <img loading="lazy" src={img8}></img> 
+        <img loading="lazy" src={img12}></img> 
 
-        <img className='animate-on-scroll' loading="lazy" src={img2}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img6}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img9}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img13}></img> 
+        <img loading="lazy" src={img2}></img> 
+        <img loading="lazy" src={img6}></img> 
+        <img loading="lazy" src={img9}></img> 
+        <img loading="lazy" src={img13}></img> 
 
-        <img className='animate-on-scroll' loading="lazy" src={img3}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img7}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img10}></img> 
-        <img className='animate-on-scroll' loading="lazy" src={img11}></img> 
+        <img loading="lazy" src={img3}></img> 
+        <img loading="lazy" src={img7}></img> 
+        <img loading="lazy" src={img10}></img> 
+        <img loading="lazy" src={img11}></img> 
         
-        <img className='animate-on-scroll' loading="lazy" src={img4}></img> 
-        {/* <img className='animate-on-scroll' loading="lazy" src=''></img> 
-        <img className='animate-on-scroll' loading="lazy" src=''></img> 
-        <img className='animate-on-scroll' loading="lazy" src=''></img>  */}
+        <img loading="lazy" src={img4}></img> 
+        {/* <img loading="lazy" src=''></img> 
+        <img loading="lazy" src=''></img> 
+        <img loading="lazy" src=''></img>  */}
 
       </div>
     </section>

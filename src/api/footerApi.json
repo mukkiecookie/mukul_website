@@ -1,0 +1,24 @@
+[
+    {
+      "icon": "MdPlace",
+      "title": "Find me",
+      "details": "New Delhi, India",
+      "link": "https://www.google.com/maps/place/New+Delhi"
+    },
+    {
+      "icon": "IoCallSharp",
+      "title": "Call me",
+      "details": "+91 9311203270"
+    },
+    {
+      "icon": "TbMailPlus",
+      "title": "Mail me",
+      "details": "mukulkankheria@gmail.com"
+    },
+    {
+      "icon": "FaInstagram",
+      "title": "Follow",
+      "details": "smoll.mukooool",
+      "link": "https://www.instagram.com/smoll.mukooool"
+    }
+  ]

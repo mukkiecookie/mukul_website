@@ -57,7 +57,7 @@ export const Footers = () => {
           © 2025 Mukul | Pixie Studios. 
         </p>
         <p className="copyright-right">
-          All Photographs Reserved. Unauthorized use is prohibited. | <a className="opensource" href="https://github.com/mukkiecookie" target="_blank">OpenSource <FaExternalLinkAlt alt="link icon"/></a> Website.
+          All Photographs Reserved. Unauthorized use is prohibited. | <a className="opensource" href="https://github.com/mukkiecookie/mukul_website" target="_blank">OpenSource <FaExternalLinkAlt alt="link icon"/></a> Website.
         </p>
       </div>
     </footer>

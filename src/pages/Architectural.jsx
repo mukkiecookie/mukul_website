@@ -1,11 +1,24 @@
 import { RiArrowUpDoubleFill } from "react-icons/ri";
+import { React} from 'react';
 
-import { React, useRef } from 'react';
-import gsap from 'gsap';
-import { useGSAP } from '@gsap/react';
-import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import img1 from "../assets/architecture/img (1).jpg"
+import img2 from "../assets/architecture/img (2).jpg"
+import img3 from "../assets/architecture/img (3).jpg"
+import img4 from "../assets/architecture/img (4).jpg"
+import img5 from "../assets/architecture/img (5).jpg"
+import img6 from "../assets/architecture/img (6).jpg"
+import img7 from "../assets/architecture/img (7).jpg"
+import img8 from "../assets/architecture/img (8).jpg"
+import img9 from "../assets/architecture/img (9).jpg"
+import img10 from "../assets/architecture/img (10).jpg"
+import img11 from "../assets/architecture/img (11).jpg"
+import img12 from "../assets/architecture/img (12).jpg"
+import img13 from "../assets/architecture/img (13).jpg"
+import img14 from "../assets/architecture/img (14).jpg"
+import img15 from "../assets/architecture/img (15).jpg"
+import img16 from "../assets/architecture/img (16).jpg"
+import img17 from "../assets/architecture/img (17).jpg"
 
-gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export const Architectural = () => {
   const scrollToTop = () => {
@@ -15,48 +28,33 @@ export const Architectural = () => {
     });
   };
 
-  useGSAP(() => {
-    gsap.utils.toArray('.animate-on-scroll').forEach((element) => {
-      gsap.from(element, {
-        opacity: 0,
-        duration: 1,
-        ease: 'power2.out',
-        scrollTrigger: {
-          trigger: element,
-          start: 'top 100%', // Start animation when the element reaches 80% of the viewport height
-          toggleActions: 'play none none none', // Play once, no reverse
-        }
-      });
-    });
-  });
-
   return (
     <section>
       <div className='scrolltotop' onClick={scrollToTop}><RiArrowUpDoubleFill /></div>
       
 
       <div className='list'>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\1702979668866.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\1702979669151.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\1702979669170.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\1702979669608.jpg'></img>
+        <img className='animate-on-scroll' loading="lazy" src={img1}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img6}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img10}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img14}></img>
         
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\1702979669624.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src/assets/architecture/1710828353683.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\1713543136835.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20231206_153613_1.jpg'></img>
+        <img className='animate-on-scroll' loading="lazy" src={img2}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img7}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img11}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img15}></img>
         
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20231219_131126.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20240920_145647_1.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20240920_155743_1.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20241105_150859_1.jpg'></img>
+        <img className='animate-on-scroll' loading="lazy" src={img3}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img8}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img12}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img16}></img>
         
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20241105_151653.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20241105_152245.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20241108_153005.jpg'></img>
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20241109_135046.jpg'></img>
+        <img className='animate-on-scroll' loading="lazy" src={img4}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img9}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img13}></img>
+        <img className='animate-on-scroll' loading="lazy" src={img17}></img>
         
-        <img className='animate-on-scroll' loading="lazy" src='src\assets\architecture\IMG_20241109_140236.jpg'></img>
+        <img className='animate-on-scroll' loading="lazy" src={img5}></img>
         
         {/* <img className='animate-on-scroll' loading="lazy" src=''></img>
         <img className='animate-on-scroll' loading="lazy" src=''></img> */}

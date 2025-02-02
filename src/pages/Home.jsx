@@ -4,6 +4,16 @@ import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import profile_photo from "../assets/aboutphoto.jpg";
 
+import img1 from "../assets/img1.png"
+import img2 from "../assets/img2.jpg"
+import img3 from "../assets/img3.jpg"
+import img4 from "../assets/img4.jpg"
+import img5 from "../assets/img5.jpg"
+import img6 from "../assets/img6.jpg"
+import img7 from "../assets/img7.jpg"
+import img8 from "../assets/img8.jpg"
+
+
 gsap.registerPlugin(ScrollTrigger, useGSAP);
 
 export const Home = () => {
@@ -40,25 +50,25 @@ export const Home = () => {
           <div className="semi-circle bottom"></div>
 
           <div className="carousel-list">
-            <span className="carousel-items"><img src="src\assets\img1.png" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img2.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img3.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img4.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img5.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img6.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img7.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img8.jpg" alt=""/></span>
+            <span className="carousel-items"><img src={img1} alt=""/></span>
+            <span className="carousel-items"><img src={img2} alt=""/></span>
+            <span className="carousel-items"><img src={img3} alt=""/></span>
+            <span className="carousel-items"><img src={img4} alt=""/></span>
+            <span className="carousel-items"><img src={img5} alt=""/></span>
+            <span className="carousel-items"><img src={img6} alt=""/></span>
+            <span className="carousel-items"><img src={img7} alt=""/></span>
+            <span className="carousel-items"><img src={img8} alt=""/></span>
           </div>
 
           <div className="carousel-list">
-            <span className="carousel-items"><img src="src\assets\img1.png" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img2.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img3.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img4.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img5.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img6.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img7.jpg" alt=""/></span>
-            <span className="carousel-items"><img src="src\assets\img8.jpg" alt=""/></span>
+            <span className="carousel-items"><img src={img1} alt=""/></span>
+            <span className="carousel-items"><img src={img2} alt=""/></span>
+            <span className="carousel-items"><img src={img3} alt=""/></span>
+            <span className="carousel-items"><img src={img4} alt=""/></span>
+            <span className="carousel-items"><img src={img5} alt=""/></span>
+            <span className="carousel-items"><img src={img6} alt=""/></span>
+            <span className="carousel-items"><img src={img7} alt=""/></span>
+            <span className="carousel-items"><img src={img8} alt=""/></span>
           </div>
         </div>
 
